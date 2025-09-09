@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice of Hope & Solution Foundation</title>
+    <!-- Use the Inter font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom styles for the form input focus */
+        .form-input:focus {
+            outline: none;
+            border-color: #6366f1; /* Tailwind's indigo-500 */
+            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.4);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header/Navigation -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-indigo-600">Voice of Hope</h1>
+            <nav class="hidden sm:block">
+                <ul class="flex space-x-6 text-sm font-medium">
+                    <li><a href="#vision" class="hover:text-indigo-600 transition duration-300">Our Vision</a></li>
+                    <li><a href="#pillars" class="hover:text-indigo-600 transition duration-300">Pillars</a></li>
+                    <li><a href="#mission" class="hover:text-indigo-600 transition duration-300">Our Mission</a></li>
+                    <li><a href="#partner" class="hover:text-indigo-600 transition duration-300">Partner With Us</a></li>
+                </ul>
+            </nav>
+            <a href="#partner" class="bg-indigo-600 text-white font-medium py-2 px-5 rounded-full hover:bg-indigo-700 transition duration-300 transform hover:scale-105">Join Us</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-indigo-50 py-16 sm:py-24 text-center">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-indigo-800 leading-tight">
+                Bringing Christ, Hope, and Solutions to the World
+            </h2>
+            <p class="mt-4 text-xl sm:text-2xl text-indigo-700 font-medium">
+                “Voice of Hope and Solution Foundation & Outreach is a Christ-centered ministry dedicated to winning souls, spreading the gospel, and serving humanity through love in action.”
+            </p>
+        </div>
+    </section>
+
+    <!-- Vision & Mission Section -->
+    <section id="vision" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:flex lg:items-center lg:space-x-12">
+                <div class="lg:w-1/2">
+                    <h3 class="text-3xl sm:text-4xl font-bold text-indigo-800">Our Vision</h3>
+                    <p class="mt-4 text-lg text-gray-600 leading-relaxed">
+                        Voice of Hope and Solution Foundation & Outreach is a Christ-centered ministry dedicated to winning souls, spreading the gospel, and serving humanity through love in action bringing hope, healing, and empowerment to individuals and communities in need.
+                    </p>
+                </div>
+                <div id="mission" class="mt-12 lg:mt-0 lg:w-1/2">
+                    <h3 class="text-3xl sm:text-4xl font-bold text-indigo-800">Our Mission</h3>
+                    <p class="mt-4 text-lg text-gray-600 leading-relaxed">
+                        We go where the Lord leads, moving from one community to another bringing the gospel, hope, and tangible solutions. Through love in action, we bring joy to the needy, restore dignity to families, share the transforming power of Christ, and empower individuals to rise above poverty and build sustainable futures.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Pillars Section -->
+    <section id="pillars" class="bg-gray-100 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-3xl sm:text-4xl font-bold text-indigo-800 text-center">Our Core Pillars</h3>
+            <p class="mt-4 text-lg text-gray-600 text-center max-w-2xl mx-auto">
+                We are guided by a singular calling, which is to spread the love of Jesus Christ through both spiritual and practical support. Our work is rooted in compassion, faith, and empowerment.
+            </p>
+
+            <!-- Image Gallery -->
+            <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <!-- Image 1: Soul-Winning -->
+                <div class="relative group rounded-2xl overflow-hidden shadow-lg">
+                    <img src="1.jpg" alt="A group of people listening to a sermon with hope in their eyes." class="w-full h-48 object-cover transform transition-transform duration-300 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-indigo-600 bg-opacity-70 flex items-center justify-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <p class="text-white text-xl font-bold text-center">Preaching the gospel of Christ with love and truth.</p>
+                    </div>
+                </div>
+                <!-- Image 2: Humanitarian Support -->
+                <div class="relative group rounded-2xl overflow-hidden shadow-lg">
+                    <img src="2.jpg" alt="Volunteers handing out food and clothing to families in a community." class="w-full h-48 object-cover transform transition-transform duration-300 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-blue-500 bg-opacity-70 flex items-center justify-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <p class="text-white text-xl font-bold text-center">Providing food, clothing, and other essentials to families in need.</p>
+                    </div>
+                </div>
+                <!-- Image 3: Medical Care -->
+                <div class="relative group rounded-2xl overflow-hidden shadow-lg">
+                    <img src="3.jpg" alt="A medical professional attending to a patient during a free health clinic." class="w-full h-48 object-cover transform transition-transform duration-300 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-emerald-500 bg-opacity-70 flex items-center justify-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <p class="text-white text-xl font-bold text-center">Offering free medical care and health testing.</p>
+                    </div>
+                </div>
+                <!-- Image 4: Empowerment & Sustainability -->
+                <div class="relative group rounded-2xl overflow-hidden shadow-lg">
+                    <img src="4.jpg" alt="A small business owner receiving training and equipment from the foundation." class="w-full h-48 object-cover transform transition-transform duration-300 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-amber-400 bg-opacity-70 flex items-center justify-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <p class="text-white text-xl font-bold text-center">Offering free medical care and health testing.</p>
+                    </div>
+                </div>
+                <!-- Image 5: Community Outreach -->
+                <div class="relative group rounded-2xl overflow-hidden shadow-lg">
+                    <img src="5.jpg" alt="A large crowd gathered for an annual outreach program with music and activities." class="w-full h-48 object-cover transform transition-transform duration-300 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-purple-600 bg-opacity-70 flex items-center justify-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <p class="text-white text-xl font-bold text-center">Offering free medical care and health testing.</p>
+                    </div>
+                </div>
+                <!-- Image 6: Partnership & Giving -->
+                <div class="relative group rounded-2xl overflow-hidden shadow-lg">
+                    <img src="6.jpg" alt="Hands holding a globe, symbolizing a global partnership for giving." class="w-full h-48 object-cover transform transition-transform duration-300 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-pink-500 bg-opacity-70 flex items-center justify-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <p class="text-white text-xl font-bold text-center">Hosting large-scale outreach programs impacting thousands.</p>
+                    </div>
+                </div>
+                <!-- Image 7: Empowering Youth -->
+                <!-- <div class="relative group rounded-2xl overflow-hidden shadow-lg">
+                    <img src="https://placehold.co/600x400/F59E0B/fff?text=Youth+Empowerment" alt="Young adults participating in a skill development workshop with tools." class="w-full h-48 object-cover transform transition-transform duration-300 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-amber-500 bg-opacity-70 flex items-center justify-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <p class="text-white text-xl font-bold text-center">Creating opportunities for skill development and entrepreneurship.</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action & Registration Form -->
+    <section id="partner" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h3 class="text-3xl sm:text-4xl font-bold text-indigo-800">Call to Action</h3>
+            <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
+                We invite you to pray, partner, and give. Together, we can touch lives, restore hope, and spread the love of Christ to the ends of the earth.
+            </p>
+
+            <div class="mt-8 bg-gray-100 p-8 sm:p-12 rounded-3xl shadow-lg max-w-xl mx-auto border border-gray-200">
+                <h4 class="text-2xl sm:text-3xl font-bold text-indigo-700 mb-6">Partner With Us</h4>
+                <!-- Formspree form -->
+                <!-- IMPORTANT: Replace the "YOUR_FORMSPREE_ENDPOINT" with your actual Formspree endpoint -->
+                <form action="https://formspree.io/f/myzdoevo" method="POST" class="space-y-6">
+                    <div>
+                        <input type="text" name="name" id="name" placeholder="Your Name" required class="form-input w-full px-5 py-3 rounded-full border border-gray-300 placeholder-gray-500 focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all duration-300">
+                    </div>
+                    <div>
+                        <input type="email" name="email" id="email" placeholder="Your Email Address" required class="form-input w-full px-5 py-3 rounded-full border border-gray-300 placeholder-gray-500 focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all duration-300">
+                    </div>
+                    <div>
+                        <textarea name="message" id="message" rows="4" placeholder="How would you like to partner with us?" class="form-input w-full px-5 py-3 rounded-2xl border border-gray-300 placeholder-gray-500 focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all duration-300"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="w-full bg-indigo-600 text-white font-semibold py-3 px-6 rounded-full hover:bg-indigo-700 transition duration-300 transform hover:scale-105 shadow-md">
+                            Submit & Connect
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h4 class="text-2xl font-bold">Voice of Hope and Solution Foundation & Outreach</h4>
+            <p class="mt-2 text-gray-400">Bringing Christ, Hope, and Solutions to the World.</p>
+
+               <!-- Social Media Icons -->
+            <div class="mt-6 flex justify-center space-x-6 text-2xl">
+                <!-- IMPORTANT: Replace the # with your actual Instagram URL -->
+                <a href="https://www.instagram.com/voiceofhopefoundation2025/" class="hover:text-pink-500 transition duration-300">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <!-- IMPORTANT: Replace the # with your actual TikTok URL -->
+                <a href="https://www.tiktok.com/@voiceofhopefoundation?lang=en-GB" class="hover:text-black transition duration-300">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+            </div>
+            <p class="mt-4 text-sm text-gray-500">&copy; 2025 Voice of Hope. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
